@@ -1,0 +1,21 @@
+<!-- res/drawable/custom_button.xml -->
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <item android:state_pressed="true">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#FF4081" /> &lt;!&ndash; Màu sắc khi nút được nhấn &ndash;&gt;-->
+<!--            <corners android:radius="8dp" /> &lt;!&ndash; Góc bo của hình dạng &ndash;&gt;-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--    <item>-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#FFC107" /> &lt;!&ndash; Màu sắc mặc định &ndash;&gt;-->
+<!--            <corners android:radius="8dp" /> &lt;!&ndash; Góc bo của hình dạng &ndash;&gt;-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--</selector>-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FF5722"/> <!-- Màu nền của nút, thay #FF5722 bằng mã màu bạn muốn -->
+    <corners android:radius="8dp"/> <!-- Độ cong của góc nút -->
+</shape>
